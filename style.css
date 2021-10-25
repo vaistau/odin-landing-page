@@ -1,22 +1,23 @@
 html, body {
-    height: 99%;
+    height: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    padding: 0px 110px;
     align-items: center;
 }
 
 .content {
     flex: 1 0 auto;
+    background-color: #1f2937;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #f9faf8;
 }
 
 ul {
@@ -28,11 +29,13 @@ ul {
 
 a {
     text-decoration: none;
+    color: #e5e7eb
 }
 
 .header-bottom {
     display: flex;
     justify-content: space-between;
+    color: #f9faf8;
 }
 
 .header-bottom-left {
@@ -49,7 +52,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 30px;
-    background-color: bisque;
+    background-color: gray;
     margin: 20px;
     text-align: center;
 }
@@ -82,18 +85,24 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: burlywood;
     padding: 10px;
     width: 100px;
     height: 100px;
+    border: solid 3px #3882f6;
+    border-radius: 8px;
+}
+
+.card-subtext {
+    text-align: center;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     width: 600px;
-    gap: 10px;
+    gap: 40px;
     padding: 30px;
+    background-color: #e5e7eb;
 }
 
 .credit {
@@ -105,6 +114,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    background-color: #3882f6;
 }
 
 .bottom-left {
@@ -117,6 +127,18 @@ button {
     display: flex;
     justify-content: center;
     width: 80px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.top-button {
+    border: solid #1f2937;
+}
+
+.bottom-button {
+    border: solid;
 }
 
 .footer {
