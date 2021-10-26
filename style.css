@@ -146,6 +146,12 @@ a {
     background-color: #3882f6;
     margin: 70px;
     border-radius: 10px;
+    color: #f9faf8;
+    gap: 40px;
+}
+
+.bottom-title {
+    font-weight: 700;
 }
 
 .bottom-left {
