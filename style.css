@@ -111,7 +111,6 @@ a {
     height: 100px;
     border: solid 3px #3882f6;
     border-radius: 8px;
-    color: rgb(99, 99, 99)
 }
 
 .card-subtext {
@@ -183,7 +182,7 @@ button {
 .footer {
     flex-shrink: 0;
     background-color: #1f2937;
-    padding: 10px;
+    padding: 25px;
 }
 
 .copyright {
