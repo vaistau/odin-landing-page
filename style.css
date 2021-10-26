@@ -111,10 +111,12 @@ a {
     height: 100px;
     border: solid 3px #3882f6;
     border-radius: 8px;
+    color: rgb(99, 99, 99)
 }
 
 .card-subtext {
     text-align: center;
+    color:rgb(99, 99, 99);
 }
 
 .quote {
@@ -166,7 +168,7 @@ button {
     width: 80px;
     background-color: #3882f6;
     color:#f9faf8;
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 5px;
 }
 
