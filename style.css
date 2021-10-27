@@ -83,7 +83,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 70px 0px;
+    padding: 70px 30px;
     gap: 10px;
     width: 800px;
 }
@@ -135,7 +135,7 @@ a {
     flex-direction: column;
     width: 700px;
     gap: 40px;
-    padding: 70px 0px;
+    padding: 70px 30px;
     background-color: #e5e7eb;
 
 }
@@ -161,12 +161,13 @@ a {
 .bottom {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 40px 80px;
     background-color: #3882f6;
     margin: 70px;
     border-radius: 10px;
     color: #f9faf8;
-    gap: 40px;
+    gap: 50px;
     max-width: 800px;
 }
 
