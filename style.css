@@ -5,14 +5,12 @@ body {
 }
 
 .header-container {
+    display: flex;
     background-color: #1f2937;
+    justify-content: center;
 }
 
 .header {
-    background-color: #1f2937;
-    padding-bottom: 70px;
-    display: flex;
-    flex-direction: column;
     gap: 70px;
     max-width: 1000px;
 }
@@ -47,6 +45,7 @@ a {
     display: flex;
     justify-content: space-between;
     color: #f9faf8;
+    padding: 90px 0px;
 }
 
 .title {
@@ -72,6 +71,12 @@ a {
     margin: 0px 20px 20px 0px;
     text-align: center;
     flex-shrink: 0;
+    border-radius: 5px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
 }
 
 .information {
@@ -107,7 +112,7 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     width: 100px;
     height: 100px;
     border: solid 3px #3882f6;
@@ -117,6 +122,12 @@ a {
 .card-subtext {
     text-align: center;
     color:rgb(99, 99, 99);
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
 
 .quote {
@@ -139,17 +150,24 @@ a {
     display: flex;
     justify-content: flex-end;
     font-weight: 700;
+    font-size: large;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
 }
 
 .bottom {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 40px 80px;
     background-color: #3882f6;
     margin: 70px;
     border-radius: 10px;
     color: #f9faf8;
     gap: 40px;
+    max-width: 800px;
 }
 
 .bottom-title {
@@ -188,6 +206,7 @@ button {
 
 .copyright {
     color:#f9faf8;
+    text-align: center;
 }
 
 /* Box sizing rules */
