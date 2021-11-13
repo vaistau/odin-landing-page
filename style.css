@@ -210,14 +210,12 @@ button {
     text-align: center;
 }
 
-/* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Remove default margin */
 body,
 h1,
 h2,
